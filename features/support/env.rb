@@ -20,14 +20,6 @@ def setUp
   $logger.info "Application is Successfully launched"
 end
 
-
-After do |scenario|
-  if (scenario.status != :passed)
-    encoded_img = $driver.screenshot_as(:base64)
-    embed("data:image/png;base64,#{encoded_img}",'image/png', "Failure Screenshot:")
-  end
-end
-
  at_exit do
    $driver.quit
  end
