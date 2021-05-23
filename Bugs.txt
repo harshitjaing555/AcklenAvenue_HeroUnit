@@ -1,0 +1,21 @@
+1. Parking Lot dropdown resets to 'Valet Parking' on Clicking on Calculate button,
+ even though any other parking type is being selected
+
+2. PM radio button resets to AM on Clicking on Calculate button
+
+3. All the textfields are allowing user to enter any number of characters.
+It should restrict user to enter data in specific format only
+
+4. Issues in calculating Economy Parking cost on selecting time period in between 4:01 AM - 6:59 AM.
+It shows cost to $11 instead of $9
+Showing incorrect weekly amount as well <$ 55.00        (5 Days, 4 Hours, 59 Minutes)><$56.00        (5 Days, 5 Hours, 59 Minutes)>
+
+5. Issues in calculating Long term garage parking cost on selecting time period in between 6:01 AM - 6:59 AM. Extra $2 appears
+It shows $14 in between <06:01 - 06:59 AM>
+It shows $26 in between <06:01 - 06:59 AM> on 2 consecutive days
+It shows $74(5 Days, 6 Hours, 1 Minutes) in between <06:01 - 06:59 AM> on weekly basis
+
+6. Issues in calculating Long term surface parking cost on selecting time period in between 5:01 AM - 6:59 AM. Extra $2 appears
+$ 12 is displayed during this period <05:01-06:59 AM>
+$ 22.00        (1 Days, 6 Hours, 59 Minutes)
+$ 62.00        (5 Days, 6 Hours, 59 Minutes)

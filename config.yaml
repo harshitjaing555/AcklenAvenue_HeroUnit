@@ -1,0 +1,7 @@
+prod:
+ app_url:  http://www.shino.de/parkcalc/
+PLATFORM_NAME: web
+browser: chrome
+execution_mode: local
+
+# PLATFORM_NAME can be web, android phone, android tablet, ipad, iphone
