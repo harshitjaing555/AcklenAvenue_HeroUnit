@@ -19,7 +19,3 @@ def setUp
   $app = @app
   $logger.info "Application is Successfully launched"
 end
-
- at_exit do
-   $driver.quit
- end
